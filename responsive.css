@@ -1,0 +1,138 @@
+/* mobile device responsive */
+@media screen and (max-width:576px) {
+    .header {
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .navigation ul li {
+        margin-right: 18px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-info {
+        padding-left: 1.5rem;
+
+    }
+
+    .feature-info-description {
+        width: 100%;
+    }
+
+    .feature-image-container {
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+    }
+
+    .experience {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .experience-info {
+        margin-top: 5px;
+        /* width:auto; */
+    }
+
+    .experience-info-description {
+        width: 100%;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .experience-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img-container img {
+        width: 80%;
+        object-fit: cover;
+        height: 70vh;
+        /* padding-left:2rem; */
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 4rem;
+
+    }
+
+    .button-position {
+        left: -5%;
+    }
+}
+
+/* medium device or tablet responsive */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .header {
+        padding: 60px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        ;
+    }
+
+    .feature-image-container {
+        padding-left: 1.8rem;
+    }
+
+    .feature-info {
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 4.5rem;
+
+    }
+
+    .experience {
+        /* padding-left:5rem;
+       padding-right: 5rem;  */
+    }
+
+    .experience-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .experience-info-description {
+        width: 100%;
+    }
+
+    .card {
+        width: auto;
+    }
+    .img-container{
+       max-height: 700px;
+    }
+
+    .img-container img {
+        width:70%;
+        object-fit: cover;
+        /* height:100vh ; */
+        padding-left: 1rem;
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 4rem;
+
+    }
+
+    .button-position {
+        top: 72%;
+        left: -5%;
+    }
+
+
+}

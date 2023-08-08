@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+.header {
+    background: rgba(255, 144, 14, 0.10);
+    margin-bottom: 100px;
+    padding:50px 240px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 63px 220px 0px 220px; */
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    list-style: none;
+    margin-right: 52px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.banner-info {
+    text-align: center;
+    /* margin-top: 100px; */
+    max-width: 720px;
+    margin:100px auto 0px;
+}
+
+.banner-info-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 23px;
+    /* width:550px; */
+
+}
+
+.banner-info-description {
+    margin-bottom: 23px;
+    color: #727272;
+    text-align: center;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 23px 34px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 23px;
+}
+
+.banner img {
+    width: 100%;
+    /* margin:0 auto; */
+
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* feature section style */
+.feature-container {
+    display: flex;
+    
+    align-items: center;
+    gap:3.4rem;
+    
+
+}
+
+.feature-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-left: 170px;
+}
+
+
+.feature-info-title {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.black-text {
+    color: black;
+    font-weight: 700;
+}
+
+.color-text {
+    color: #FF900E;
+}
+
+.feature-info-description {
+    width: 82%;
+    margin-bottom: 21px;
+    color: #727272;
+}
+
+.experience {
+    margin-top: 50px;
+    padding: 0px 100px 0px 140px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.experience-container img {
+    height: 100vh;
+    margin-top:30px;
+    
+}
+
+.experience-info {
+    margin-top: 70px;
+}
+.experience-info-title{
+    margin-bottom:20px
+}
+
+.experience-info-description {
+    text-align: left;
+    width: 34vw;
+    margin-bottom:20px
+}
+
+
+.card {
+    width: 30vw;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 18px;
+    padding: 23px 23px;
+}
+.card-title{
+    margin-bottom:12px;
+}
+
+
+
+.img-container {
+    position: relative;
+}
+
+.button-position {
+    position: absolute;
+    top: 82%;
+    left: -13%;
+}
+.button-position button{
+    padding:28px 32px;
+}
+
+.bold {
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    /* 107.692% */
+}
+.normal{
+    font-weight: 400;
+}
